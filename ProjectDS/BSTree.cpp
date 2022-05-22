@@ -68,7 +68,9 @@ void BSTree::Register()
 	cout << "\nEnter the ID         :";
 	cin >> usr.ID;
 	while (contains(usr.ID)) {
-
+		cout<<"This ID Already Exist!!.\n";
+		cout<<"Enter the ID           : ";
+		cin>>usr.ID;
 	}
 	cout << "\nEnter the password    :";
 	cin >> usr.password;
